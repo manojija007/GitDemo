@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.034711">
+    <testcase classname="Validation of login page in facebook web application" name="TC_02 Validation of Create new Account Block" time="10.034711">
+        <system-out><![CDATA[Given User launch the facebook application..................................passed
+When User maximize the browser..............................................passed
+And User clicks the Create new account Button...............................passed
+Then User Verfity the create new account text displayed or not..............passed
+]]></system-out>
+    </testcase>
+</testsuite>

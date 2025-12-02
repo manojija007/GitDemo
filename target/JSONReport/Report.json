@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-05-25T05:37:28.100Z",
+        "line": 12,
+        "name": "TC_02 Validation of Create new Account Block",
+        "description": "",
+        "id": "validation-of-login-page-in-facebook-web-application;tc-02-validation-of-create-new-account-block",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7337760800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User launch the facebook application",
+            "match": {
+              "location": "StepDefinition.user_launch_the_facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128374900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User maximize the browser",
+            "match": {
+              "location": "StepDefinition.user_maximize_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2284084100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks the Create new account Button",
+            "match": {
+              "location": "StepDefinition.user_clicks_the_Create_new_account_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123999600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Verfity the create new account text displayed or not",
+            "match": {
+              "location": "StepDefinition.user_Verfity_the_create_new_account_text_displayed_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanitytest"
+          }
+        ]
+      }
+    ],
+    "name": "Validation of login page in facebook web application",
+    "description": "",
+    "id": "validation-of-login-page-in-facebook-web-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/login.feature",
+    "tags": []
+  }
+]
