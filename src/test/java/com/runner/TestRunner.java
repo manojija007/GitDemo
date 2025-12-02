@@ -13,5 +13,5 @@ plugin= {"pretty","junit:target/JUnitReport/Report.xml",
 		tags="@sanitytest")
 public class TestRunner {
 
-	
+	// just wrire command for githup learning
 }
