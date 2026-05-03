@@ -20,7 +20,7 @@ Scenario Outline:	TC_03 Validation of login page with multiple invalid credentia
 Given User launch the facebook application
 When User enters the invalid "<username>" and invalid "<password>"
 And User clicks the login Button
-Then User Verify the error message is displayed or not
+Then User Verify the error message is displayed or not - for practice demo
 
 Examples:
 |username|password|
